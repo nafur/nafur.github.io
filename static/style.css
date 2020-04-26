@@ -1,0 +1,19 @@
+#content {
+	font-size: 1.25rem;
+}
+
+i {
+	vertical-align: middle;
+}
+ul.unstyled {
+	list-style: none;
+	padding-inline-start: 10px;
+}
+
+p.degree {
+	margin: 0;
+}
+p.institution {
+	margin: 0;
+	font-size: 1rem;
+}
