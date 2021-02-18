@@ -10,10 +10,10 @@ academicons: academicons-v1.8.6.zip
 	unzip -Dq academicons-v1.8.6.zip
 	ln -sf academicons-1.8.6 academicons
 
-fontawesome-free-5.13.0-web.zip:
-	wget -q https://github.com/FortAwesome/Font-Awesome/releases/download/5.13.0/fontawesome-free-5.13.0-web.zip -O fontawesome-free-5.13.0-web.zip
+fontawesome-free-5.15.2-web.zip:
+	wget -q https://github.com/FortAwesome/Font-Awesome/releases/download/5.15.2/fontawesome-free-5.15.2-web.zip -O fontawesome-free-5.15.2-web.zip
 
-fontawesome: fontawesome-free-5.13.0-web.zip
-	unzip -Dq fontawesome-free-5.13.0-web.zip
-	ln -sf fontawesome-free-5.13.0-web fontawesome
+fontawesome: fontawesome-free-5.15.2-web.zip
+	unzip -Dq fontawesome-free-5.15.2-web.zip
+	ln -sf fontawesome-free-5.15.2-web fontawesome
 
