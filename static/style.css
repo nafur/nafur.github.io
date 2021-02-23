@@ -2,6 +2,12 @@
 	font-size: 1rem;
 }
 
+section:before {
+    height: 54px;
+    content: "";
+    display:block;
+}
+
 i {
 	vertical-align: middle;
 }
