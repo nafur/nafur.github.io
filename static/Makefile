@@ -8,7 +8,6 @@ academicons-v1.8.6.zip:
 
 academicons: academicons-v1.8.6.zip
 	unzip -Dq academicons-v1.8.6.zip
-	rm academicons-v1.8.6.zip
 	mv academicons-1.8.6 academicons
 
 fontawesome-free-5.15.2-web.zip:
@@ -16,6 +15,10 @@ fontawesome-free-5.15.2-web.zip:
 
 fontawesome: fontawesome-free-5.15.2-web.zip
 	unzip -Dq fontawesome-free-5.15.2-web.zip
-	rm fontawesome-free-5.15.2-web.zip
 	mv fontawesome-free-5.15.2-web fontawesome
 
+
+clean:
+
+	rm academicons-v1.8.6.zip
+	rm fontawesome-free-5.15.2-web.zip
